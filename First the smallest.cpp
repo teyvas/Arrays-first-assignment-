@@ -16,9 +16,7 @@ int main(){
     {
         if(mn==a[i]) block=i;
     }
-
     q=a[0];
-
     for(int i=0;i<n;i++)
     {
         if(a[i]==a[block])
@@ -34,4 +32,5 @@ int main(){
     {
         cout<<a[i]<<" ";
     }
+    //new
 }
